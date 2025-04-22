@@ -24,7 +24,7 @@ const Home = ({ socket }) => {
           <h1 className="text-4xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             Video Chat
           </h1>
-          <p className="text-gray-300">Connect with anyone, anywhere</p>
+          <p className="text-gray-300">Connect with anyone</p>
         </div>
         
         <div className="space-y-6">
