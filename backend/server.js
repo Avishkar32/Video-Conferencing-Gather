@@ -57,6 +57,10 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 5000;
 
+app.get('/', (req, res) => {
+  res.send('Socket.io server is running.');
+});
+
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
