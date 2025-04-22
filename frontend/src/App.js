@@ -8,7 +8,7 @@ const App = () => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const newSocket = io('http://localhost:5000');
+    const newSocket = io('https://video-conferencing-gather.onrender.com');
     setSocket(newSocket);
     
     return () => {
